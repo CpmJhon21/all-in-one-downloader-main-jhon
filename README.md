@@ -69,12 +69,12 @@ Direct Media Stream / Download Link
 
    ```bash
  npm install
- 
+ ```
 ### 3. Start server
 
  ```bash
  npm start
-
+```
  
 ---
 
@@ -83,30 +83,32 @@ Endpoint
 - POST /api/download
 - Request Body
 
-```jso
+```json
 {
   "url": "https://example.com/video"
 }
+```
 
 ### Response Success
 
-```jso
+```json
 {
   "status": true,
   "title": "Video Title",
   "thumbnail": "thumbnail_url",
   "download": "direct_download_url"
 }
+```
 
 ### Response Error
 
-```jso
+```json
 
 {
   "status": false,
   "message": "Invalid URL or unsupported platform"
 }
-
+```
 ---
 
 ### File Structure
