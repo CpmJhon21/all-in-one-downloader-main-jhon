@@ -1,21 +1,28 @@
 # 🚀 ALL ONE DOWNLOADER — ULTRA EDITION
 
-> Unified Multi-Platform Media Extraction System  
-> Engineered for Performance • No Watermark • High Speed • Secure Processing  
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/NODE-%3E%3D16-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/VERSION-3.0-black?style=for-the-badge">
+  <img src="https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge">
+</p>
+
+<p align="center">
+  <b>Unified Multi-Platform Media Extraction System</b><br>
+  Engineered for Performance • No Watermark • High Speed • Secure Processing
+</p>
 
 ---
 
 ## 🌍 Overview
 
-All One Downloader adalah aplikasi web modern yang dirancang untuk mengekstrak dan mengunduh media dari berbagai platform populer dalam satu sistem terpadu.
+All One Downloader adalah aplikasi web modern untuk mengekstrak dan mengunduh media dari berbagai platform populer dalam satu sistem terpadu.
 
-Dirancang dengan arsitektur modular, UI cyber-modern, dan backend berbasis Node.js untuk performa maksimal.
+Dirancang dengan arsitektur modular, UI cyber-modern, dan backend Node.js untuk performa maksimal serta kemudahan deployment.
 
 ---
 
 ## 🔥 Supported Platforms
-
-Sistem mendukung ekstraksi dari:
 
 - 🎵 TikTok (No Watermark)
 - 📸 Instagram (Reels / Story)
@@ -30,15 +37,15 @@ Sistem mendukung ekstraksi dari:
 
 ## ⚙ Core Features
 
-- ✔ TikTok No Watermark Extraction
-- ✔ YouTube to MP3 Converter
-- ✔ YouTube MP4 Downloader
-- ✔ Instagram Reels & Story Support
-- ✔ Multi-Platform URL Detection
-- ✔ Fast Processing Engine
-- ✔ Clean Cyberpunk Interface
-- ✔ Static Mode & Full Stack Mode
-- ✔ Lightweight & Secure Architecture
+- Multi-platform URL auto detection
+- TikTok No Watermark Extraction
+- YouTube MP3 Converter
+- YouTube MP4 Downloader
+- Instagram Reels & Story Support
+- Fast Processing Engine
+- Modern Cyberpunk UI
+- Static Mode & Full Stack Mode
+- Lightweight & Secure
 
 ---
 
@@ -56,46 +63,66 @@ Direct Media Stream / Download Link
 
 ---
 
-## 🖥 Technology Stack
+# 📦 Installation
+### 1. Install Node.js (v16+)
+### 2. Start server
 
-### Frontend
-- HTML5
-- CSS3 (Modern Cyber UI)
-- Vanilla JavaScript
+   ```bash
+ npm install
+ 
+### 3. Start server
 
-### Backend
-- Node.js (v16+)
-- Express.js
-- Axios
-- Cheerio
+ ```bash
+ npm start
+
+ 
+---
+
+### 🧠 API Documentation
+Endpoint
+- POST /api/download
+- Request Body
+
+```jso
+{
+  "url": "https://example.com/video"
+}
+
+### Response Success
+
+```jso
+{
+  "status": true,
+  "title": "Video Title",
+  "thumbnail": "thumbnail_url",
+  "download": "direct_download_url"
+}
+
+### Response Error
+
+```jso
+
+{
+  "status": false,
+  "message": "Invalid URL or unsupported platform"
+}
 
 ---
 
-# 📦 Installation
-
-- Install Node.js
-(Download Node.js v16 atau lebih tinggi.)
-```bash
-- git clone https://github.com/CpmJhon21/all-one-downloader.git
-cd all-one-downloader
-
-- Install Dependencies
-```bash
- npm install
+### File Structure
   
-- Start Server
-```bash
-npm start
-
-
-
-
+  ```file
+  spotify-downloader/
+├── index.html          # Main HTML file
+├── style.css          # Stylesheet
+├── script.js          # Frontend JavaScript
+├── index.js           # Backend API server
+├── package.json       # Node.js dependencies
+└── README.md          # Documentation
 ---
 
 ## 🔹 Frontend Only (Static Mode)
 
-Cocok untuk demo UI atau tanpa backend.
-
-1. Clone repository
 ```bash
-git clone https://github.com/CpmJhon21/all-one-downloader.git
+git clone https://github.com/yourusername/all-one-downloader.git
+cd all-one-downloader
