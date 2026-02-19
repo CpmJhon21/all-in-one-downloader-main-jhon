@@ -34,7 +34,17 @@ Dirancang dengan arsitektur modular, UI cyber-modern, dan backend Node.js untuk 
 - 🎧 SoundCloud
 
 ---
+## 🔹 Frontend Only (Static Mode)
 
+- 🚀 **Lightning Fast** - Download tracks in seconds
+- 🔒 **100% Secure** - No malware, completely safe
+- 🆓 **Completely Free** - No subscriptions, unlimited downloads
+- 📱 **Responsive Design** - Works on desktop and mobile
+- 🔄 **Real-time Processing** - Live progress updates
+- 🎨 **Modern UI** - Spotify-inspired design
+
+  ---
+  
 ## ⚙ Core Features
 
 - Multi-platform URL auto detection
@@ -114,7 +124,7 @@ Endpoint
 ### File Structure
   
   ```file
-  spotify-downloader/
+  All-downloader/
 ├── index.html          # Main HTML file
 ├── style.css          # Stylesheet
 ├── script.js          # Frontend JavaScript
@@ -123,8 +133,4 @@ Endpoint
 └── README.md          # Documentation
 ---
 
-## 🔹 Frontend Only (Static Mode)
-
-```bash
-git clone https://github.com/yourusername/all-one-downloader.git
-cd all-one-downloader
+```
